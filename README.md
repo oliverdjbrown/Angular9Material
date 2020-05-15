@@ -73,4 +73,8 @@ En esta practica generaremos un modulo para manejar las importaciones
 2) injectarlo
 3) documentacion https://material.angular.io/components/grid-list/overview
 
+## Expansion
+1) import {MatExpansionModule} from '@angular/material/expansion';
+2) injectarlo
+3) documentacion https://material.angular.io/components/expansion/overview
 

@@ -1,3 +1,4 @@
+import { ExpansionComponent } from './expansion/expansion.component';
 import { GridListComponent } from './grid-list/grid-list.component';
 import { ListComponent } from './list/list.component';
 import { MenuComponent } from './menu/menu.component';
@@ -27,6 +28,7 @@ const routes: Routes = [
   { path: 'menu', component: MenuComponent },
   { path: 'list', component: ListComponent },
   { path: 'grid-list', component: GridListComponent },
+  { path: 'expansion-panel', component: ExpansionComponent },
   { path: '**', component: AppComponent }
 ];
 
