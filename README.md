@@ -19,3 +19,9 @@ En esta practica generaremos un modulo para manejar las importaciones
 5) Creamos una constante que sera un arrerlo llamada MAterialComponents y le aregaremos nuestras propiedad.
 6) agregamos nuestra constante a los arreglos imports y exports.
 7) dentro de nuestro app.module.ts importamos nuestro modulo y lo agregamos al arreglo de imports.
+
+## Typography
+
+https://material.angular.io/guide/typography
+
+
