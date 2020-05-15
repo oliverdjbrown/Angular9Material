@@ -1,3 +1,4 @@
+import { GridListComponent } from './grid-list/grid-list.component';
 import { ListComponent } from './list/list.component';
 import { MenuComponent } from './menu/menu.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
@@ -25,6 +26,7 @@ const routes: Routes = [
   { path: 'sidenav', component: SidenavComponent },
   { path: 'menu', component: MenuComponent },
   { path: 'list', component: ListComponent },
+  { path: 'grid-list', component: GridListComponent },
   { path: '**', component: AppComponent }
 ];
 

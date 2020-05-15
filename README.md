@@ -67,3 +67,10 @@ En esta practica generaremos un modulo para manejar las importaciones
 1) import {MatListModule} from '@angular/material/list';
 2) injectarlo
 3) documentacion https://material.angular.io/components/list/overview
+
+## Grid List
+1) import {MatGridListModule} from '@angular/material/grid-list';
+2) injectarlo
+3) documentacion https://material.angular.io/components/grid-list/overview
+
+

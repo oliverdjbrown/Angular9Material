@@ -15,6 +15,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { MenuComponent } from './menu/menu.component';
 import { ListComponent } from './list/list.component';
+import { GridListComponent } from './grid-list/grid-list.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { ListComponent } from './list/list.component';
     NavbarComponent,
     SidenavComponent,
     MenuComponent,
-    ListComponent
+    ListComponent,
+    GridListComponent
   ],
   imports: [
     BrowserModule,
