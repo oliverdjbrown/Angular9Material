@@ -14,6 +14,7 @@ import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.co
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { MenuComponent } from './menu/menu.component';
+import { ListComponent } from './list/list.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { MenuComponent } from './menu/menu.component';
     ProgressSpinnerComponent,
     NavbarComponent,
     SidenavComponent,
-    MenuComponent
+    MenuComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,

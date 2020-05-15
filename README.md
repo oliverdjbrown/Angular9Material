@@ -62,3 +62,8 @@ En esta practica generaremos un modulo para manejar las importaciones
 1) import {MatMenuModule} from '@angular/material/menu';
 2) injectarlo
 3) documentacion https://material.angular.io/components/menu/overview
+
+## List
+1) import {MatListModule} from '@angular/material/list';
+2) injectarlo
+3) documentacion https://material.angular.io/components/list/overview

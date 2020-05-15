@@ -1,3 +1,4 @@
+import { ListComponent } from './list/list.component';
 import { MenuComponent } from './menu/menu.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'navbar', component: NavbarComponent },
   { path: 'sidenav', component: SidenavComponent },
   { path: 'menu', component: MenuComponent },
+  { path: 'list', component: ListComponent },
   { path: '**', component: AppComponent }
 ];
 
