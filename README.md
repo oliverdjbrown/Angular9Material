@@ -78,3 +78,9 @@ En esta practica generaremos un modulo para manejar las importaciones
 2) injectarlo
 3) documentacion https://material.angular.io/components/expansion/overview
 
+## Cards
+1) import {MatCardModule} from '@angular/material/card';
+2) injectarlo
+3) documentacion https://material.angular.io/components/card/overview
+
+
