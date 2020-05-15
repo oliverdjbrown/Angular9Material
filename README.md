@@ -43,3 +43,8 @@ En esta practica generaremos un modulo para manejar las importaciones
 3) documentacion https://material.angular.io/components/icon/overview
 4) Icons https://material.io/resources/icons/?style=baseline
 
+## Badges
+
+1) import {MatBadgeModule} from '@angular/material/badge';
+2) injectarlo
+3) documentacion https://material.angular.io/components/badge/overview

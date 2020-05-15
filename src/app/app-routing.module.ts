@@ -1,3 +1,4 @@
+import { BadgesComponent } from './badges/badges.component';
 import { IconComponent } from './icon/icon.component';
 import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
 import { ButtonComponent } from './button/button.component';
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'button', component: ButtonComponent },
   { path: 'button-toggle', component: ButtonToggleComponent },
   { path: 'icon', component: IconComponent },
+  { path: 'badges', component: BadgesComponent },
   { path: '**', component: AppComponent }
 ];
 
