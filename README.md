@@ -31,3 +31,7 @@ En esta practica generaremos un modulo para manejar las importaciones
 3) documentacion https://material.angular.io/components/button/overview
 
 ## Button Toggle
+
+1) import {MatButtonToggleModule} from '@angular/material/button-toggle';
+2) injectarlo
+3) documentacion https://material.angular.io/components/button-toggle/overview

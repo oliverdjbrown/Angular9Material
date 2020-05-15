@@ -1,0 +1,33 @@
+<mat-button-toggle-group #group="matButtonToggleGroup">
+    <mat-button-toggle value="left" aria-label="Text align left">
+      <mat-icon>format_align_left</mat-icon>
+    </mat-button-toggle>
+    <mat-button-toggle value="center" aria-label="Text align center">
+      <mat-icon>format_align_center</mat-icon>
+    </mat-button-toggle>
+    <mat-button-toggle value="right" aria-label="Text align right">
+      <mat-icon>format_align_right</mat-icon>
+    </mat-button-toggle>
+    <mat-button-toggle value="justify" disabled aria-label="Text align justify">
+      <mat-icon>format_align_justify</mat-icon>
+    </mat-button-toggle>
+  </mat-button-toggle-group>
+  <div class="example-selected-value">Selected value: {{group.value}}</div>
+
+  <div>
+      <mat-button-toggle-group #toggleGroup1="matButtonToggleGroup">
+        <mat-button-toggle value="Angular">Angular</mat-button-toggle>
+        <mat-button-toggle value="React">React</mat-button-toggle>
+        <mat-button-toggle value="Vue">Vue</mat-button-toggle>
+      </mat-button-toggle-group>
+      {{toggleGroup1.value}}
+  </div>
+
+  <div>
+    <mat-button-toggle-group #toggleGroup2="matButtonToggleGroup" multiple>
+      <mat-button-toggle value="Angular">Angular</mat-button-toggle>
+      <mat-button-toggle value="React">React</mat-button-toggle>
+      <mat-button-toggle value="Vue">Vue</mat-button-toggle>
+    </mat-button-toggle-group>
+    {{toggleGroup2.value}}
+</div>

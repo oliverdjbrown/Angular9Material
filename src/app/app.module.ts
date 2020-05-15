@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TypographyComponent } from './typography/typography.component';
 import { ButtonComponent } from './button/button.component';
+import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     TypographyComponent,
-    ButtonComponent
+    ButtonComponent,
+    ButtonToggleComponent
   ],
   imports: [
     BrowserModule,

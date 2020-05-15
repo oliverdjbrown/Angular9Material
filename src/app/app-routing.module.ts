@@ -1,3 +1,4 @@
+import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
 import { ButtonComponent } from './button/button.component';
 import { TypographyComponent } from './typography/typography.component';
 import { NgModule } from '@angular/core';
@@ -9,6 +10,7 @@ const routes: Routes = [
   { path: '', redirectTo: '', pathMatch: 'full' },
   { path: 'typography', component: TypographyComponent },
   { path: 'button', component: ButtonComponent },
+  { path: 'button-toggle', component: ButtonToggleComponent },
   { path: '**', component: AppComponent }
 ];
 
