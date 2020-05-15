@@ -1,3 +1,4 @@
+import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.component';
 import { BadgesComponent } from './badges/badges.component';
 import { IconComponent } from './icon/icon.component';
 import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'button-toggle', component: ButtonToggleComponent },
   { path: 'icon', component: IconComponent },
   { path: 'badges', component: BadgesComponent },
+  { path: 'progress-spinner', component: ProgressSpinnerComponent },
   { path: '**', component: AppComponent }
 ];
 

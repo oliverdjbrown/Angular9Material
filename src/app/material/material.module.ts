@@ -3,12 +3,21 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatIconModule} from '@angular/material/icon';
 import {MatBadgeModule} from '@angular/material/badge';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import {MatCardModule} from '@angular/material/card';
+import {MatRadioModule} from '@angular/material/radio';
+import {MatSliderModule} from '@angular/material/slider';
+
 
 const MaterialComponents = [
   MatButtonModule,
   MatButtonToggleModule,
   MatIconModule,
-  MatBadgeModule
+  MatBadgeModule,
+  MatProgressSpinnerModule,
+  MatCardModule,
+  MatRadioModule,
+  MatSliderModule
 ];
 
 @NgModule({
