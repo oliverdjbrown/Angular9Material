@@ -48,3 +48,7 @@ En esta practica generaremos un modulo para manejar las importaciones
 2) injectarlo
 3) documentacion https://material.angular.io/components/progress-spinner/overview
 
+## Navbar
+1) import {MatToolbarModule} from '@angular/material/toolbar';
+2) injectarlo
+3) documentacion https://material.angular.io/components/toolbar/overview

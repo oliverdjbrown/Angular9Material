@@ -1,3 +1,4 @@
+import { NavbarComponent } from './navbar/navbar.component';
 import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.component';
 import { BadgesComponent } from './badges/badges.component';
 import { IconComponent } from './icon/icon.component';
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'icon', component: IconComponent },
   { path: 'badges', component: BadgesComponent },
   { path: 'progress-spinner', component: ProgressSpinnerComponent },
+  { path: 'navbar', component: NavbarComponent },
   { path: '**', component: AppComponent }
 ];
 

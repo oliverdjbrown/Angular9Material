@@ -4,7 +4,7 @@
   
       <section class="example-section">
         <label class="example-margin">Color:</label>
-        <mat-radio-group [(ngModel)]="color">
+        <mat-radio-group>
           <mat-radio-button class="example-margin" value="primary">
             Primary
           </mat-radio-button>
@@ -19,7 +19,7 @@
   
       <section class="example-section">
         <label class="example-margin">Mode:</label>
-        <mat-radio-group [(ngModel)]="mode">
+        <mat-radio-group>
           <mat-radio-button class="example-margin" value="determinate">
             Determinate
           </mat-radio-button>
@@ -31,7 +31,7 @@
   
       <section class="example-section" *ngIf="mode === 'determinate'">
         <label class="example-margin">Progress:</label>
-        <mat-slider class="example-margin" [(ngModel)]="value"></mat-slider>
+        <mat-slider class="example-margin"></mat-slider>
       </section>
     </mat-card-content>
   </mat-card>
