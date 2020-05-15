@@ -22,6 +22,12 @@ En esta practica generaremos un modulo para manejar las importaciones
 
 ## Typography
 
-https://material.angular.io/guide/typography
+1) docuemntacion https://material.angular.io/guide/typography
 
+## Button
 
+1) import {MatButtonModule} from '@angular/material/button';
+2) injectarlo
+3) documentacion https://material.angular.io/components/button/overview
+
+## Button Toggle
