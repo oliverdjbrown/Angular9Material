@@ -35,3 +35,11 @@ En esta practica generaremos un modulo para manejar las importaciones
 1) import {MatButtonToggleModule} from '@angular/material/button-toggle';
 2) injectarlo
 3) documentacion https://material.angular.io/components/button-toggle/overview
+
+## Icons
+
+1) import import {MatIconModule} from '@angular/material/icon';
+2) injectarlo
+3) documentacion https://material.angular.io/components/icon/overview
+4) Icons https://material.io/resources/icons/?style=baseline
+

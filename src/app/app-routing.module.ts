@@ -1,3 +1,4 @@
+import { IconComponent } from './icon/icon.component';
 import { ButtonToggleComponent } from './button-toggle/button-toggle.component';
 import { ButtonComponent } from './button/button.component';
 import { TypographyComponent } from './typography/typography.component';
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: 'typography', component: TypographyComponent },
   { path: 'button', component: ButtonComponent },
   { path: 'button-toggle', component: ButtonToggleComponent },
+  { path: 'icon', component: IconComponent },
   { path: '**', component: AppComponent }
 ];
 
