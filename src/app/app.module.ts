@@ -13,6 +13,7 @@ import { BadgesComponent } from './badges/badges.component';
 import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { MenuComponent } from './menu/menu.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { SidenavComponent } from './sidenav/sidenav.component';
     BadgesComponent,
     ProgressSpinnerComponent,
     NavbarComponent,
-    SidenavComponent
+    SidenavComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

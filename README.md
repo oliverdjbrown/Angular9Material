@@ -57,3 +57,8 @@ En esta practica generaremos un modulo para manejar las importaciones
 1) import {MatSidenavModule} from '@angular/material/sidenav';
 2) injectarlo
 3) documentacion https://material.angular.io/components/sidenav/overview
+
+## Menu
+1) import {MatMenuModule} from '@angular/material/menu';
+2) injectarlo
+3) documentacion https://material.angular.io/components/menu/overview

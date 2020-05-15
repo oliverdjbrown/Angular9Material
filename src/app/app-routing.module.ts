@@ -1,3 +1,4 @@
+import { MenuComponent } from './menu/menu.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProgressSpinnerComponent } from './progress-spinner/progress-spinner.component';
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'progress-spinner', component: ProgressSpinnerComponent },
   { path: 'navbar', component: NavbarComponent },
   { path: 'sidenav', component: SidenavComponent },
+  { path: 'menu', component: MenuComponent },
   { path: '**', component: AppComponent }
 ];
 
