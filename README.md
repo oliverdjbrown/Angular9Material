@@ -52,3 +52,8 @@ En esta practica generaremos un modulo para manejar las importaciones
 1) import {MatToolbarModule} from '@angular/material/toolbar';
 2) injectarlo
 3) documentacion https://material.angular.io/components/toolbar/overview
+
+## Sidenav
+1) import {MatSidenavModule} from '@angular/material/sidenav';
+2) injectarlo
+3) documentacion https://material.angular.io/components/sidenav/overview
