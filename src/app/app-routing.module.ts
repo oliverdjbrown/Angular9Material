@@ -1,3 +1,4 @@
+import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { SelectComponent } from './select/select.component';
 import { InputComponent } from './input/input.component';
 import { StepperComponent } from './stepper/stepper.component';
@@ -39,6 +40,7 @@ const routes: Routes = [
   { path: 'stepper', component: StepperComponent },
   { path: 'input', component: InputComponent },
   { path: 'select', component: SelectComponent },
+  { path: 'autocomplete', component: AutocompleteComponent },
   { path: '**', component: AppComponent }
 ];
 

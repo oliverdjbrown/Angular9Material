@@ -19,6 +19,7 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatStepperModule} from '@angular/material/stepper';
 import {MatInputModule} from '@angular/material/input';
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
 
 
 const MaterialComponents = [
@@ -41,7 +42,8 @@ const MaterialComponents = [
   MatDatepickerModule,
   MatTabsModule,
   MatStepperModule,
-  MatInputModule
+  MatInputModule,
+  MatAutocompleteModule
 ];
 
 @NgModule({
