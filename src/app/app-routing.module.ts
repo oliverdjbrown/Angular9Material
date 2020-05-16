@@ -1,3 +1,5 @@
+import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
+import { CheckboxComponent } from './checkbox/checkbox.component';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import { SelectComponent } from './select/select.component';
 import { InputComponent } from './input/input.component';
@@ -41,6 +43,8 @@ const routes: Routes = [
   { path: 'input', component: InputComponent },
   { path: 'select', component: SelectComponent },
   { path: 'autocomplete', component: AutocompleteComponent },
+  { path: 'checkbox', component: CheckboxComponent },
+  { path: 'radiobutton', component: RadiobuttonComponent },
   { path: '**', component: AppComponent }
 ];
 

@@ -24,6 +24,8 @@ import { InputComponent } from './input/input.component';
 import { SelectComponent } from './select/select.component';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { CheckboxComponent } from './checkbox/checkbox.component';
+import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,9 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
     StepperComponent,
     InputComponent,
     SelectComponent,
-    AutocompleteComponent
+    AutocompleteComponent,
+    CheckboxComponent,
+    RadiobuttonComponent
   ],
   imports: [
     BrowserModule,

@@ -102,3 +102,18 @@ En esta practica generaremos un modulo para manejar las importaciones
 1) import {MatSelectModule} from '@angular/material/select';
 2) injectarlo
 3) documentacion https://material.angular.io/components/select/overview
+
+## Autocomplete
+1) import {MatAutocompleteModule} from '@angular/material/autocomplete';
+2) injectarlo
+3) documentacion https://material.angular.io/components/autocomplete/overview
+
+## CheckBox
+1) import {MatCheckboxModule} from '@angular/material/checkbox';
+2) injectarlo
+3) documentacion https://material.angular.io/components/checkbox/overview
+
+## RadioButton
+1) import {MatAutocompleteModule} from '@angular/material/autocomplete';
+2) injectarlo
+3) documentacion https://material.angular.io/components/autocomplete/overview
