@@ -21,8 +21,7 @@ import {MatStepperModule} from '@angular/material/stepper';
 import {MatInputModule} from '@angular/material/input';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatCheckboxModule} from '@angular/material/checkbox';
-
-
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 const MaterialComponents = [
   MatButtonModule,
@@ -46,7 +45,8 @@ const MaterialComponents = [
   MatStepperModule,
   MatInputModule,
   MatAutocompleteModule,
-  MatCheckboxModule
+  MatCheckboxModule,
+  MatTooltipModule
 ];
 
 @NgModule({

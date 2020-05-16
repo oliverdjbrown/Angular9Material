@@ -26,6 +26,9 @@ import { AutocompleteComponent } from './autocomplete/autocomplete.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { CheckboxComponent } from './checkbox/checkbox.component';
 import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
+import { DatetimepickerComponent } from './datetimepicker/datetimepicker.component';
+import { TooltipComponent } from './tooltip/tooltip.component';
+import { SnackbarComponent } from './snackbar/snackbar.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +52,10 @@ import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
     SelectComponent,
     AutocompleteComponent,
     CheckboxComponent,
-    RadiobuttonComponent
+    RadiobuttonComponent,
+    DatetimepickerComponent,
+    TooltipComponent,
+    SnackbarComponent
   ],
   imports: [
     BrowserModule,

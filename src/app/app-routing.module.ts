@@ -1,3 +1,6 @@
+import { SnackbarComponent } from './snackbar/snackbar.component';
+import { TooltipComponent } from './tooltip/tooltip.component';
+import { DatetimepickerComponent } from './datetimepicker/datetimepicker.component';
 import { RadiobuttonComponent } from './radiobutton/radiobutton.component';
 import { CheckboxComponent } from './checkbox/checkbox.component';
 import { AutocompleteComponent } from './autocomplete/autocomplete.component';
@@ -23,6 +26,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 
 
+
 const routes: Routes = [
   { path: '', redirectTo: '', pathMatch: 'full' },
   { path: 'typography', component: TypographyComponent },
@@ -45,6 +49,9 @@ const routes: Routes = [
   { path: 'autocomplete', component: AutocompleteComponent },
   { path: 'checkbox', component: CheckboxComponent },
   { path: 'radiobutton', component: RadiobuttonComponent },
+  { path: 'datetimepicker', component: DatetimepickerComponent },
+  { path: 'tooltip', component: TooltipComponent },
+  { path: 'snackbar', component: SnackbarComponent },
   { path: '**', component: AppComponent }
 ];
 

@@ -117,3 +117,18 @@ En esta practica generaremos un modulo para manejar las importaciones
 1) import {MatRadioModule} from '@angular/material/radio';
 2) injectarlo
 3) documentacion https://material.angular.io/components/radio/overview
+
+## DateTimePicker
+1) import {MatDatepickerModule} from '@angular/material/datepicker';
+2) injectarlo
+3) documentacion https://material.angular.io/components/datepicker/overview
+
+## Tooltip
+1) import {MatTooltipModule} from '@angular/material/tooltip';
+2) injectarlo
+3) documentacion https://material.angular.io/components/tooltip/overview
+
+## Snackbar
+1) import {MatSnackBarModule} from '@angular/material/snack-bar';
+2) injectarlo
+3) documentacion https://material.angular.io/components/snack-bar/overview
