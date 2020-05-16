@@ -87,3 +87,13 @@ En esta practica generaremos un modulo para manejar las importaciones
 1) import {MatTabsModule} from '@angular/material/tabs';
 2) injectarlo
 3) documentacion https://material.angular.io/components/tabs/overview
+
+## Stepper
+1) import {MatStepperModule} from '@angular/material/stepper';
+2) injectarlo
+3) documentacion https://material.angular.io/components/stepper/overview
+
+## Input
+1) import {MatInputModule} from '@angular/material/input';
+2) injectarlo
+3) documentacion https://material.angular.io/components/input/overview

@@ -1,3 +1,4 @@
+import { InputComponent } from './input/input.component';
 import { StepperComponent } from './stepper/stepper.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { CardsComponent } from './cards/cards.component';
@@ -35,6 +36,7 @@ const routes: Routes = [
   { path: 'cards', component: CardsComponent },
   { path: 'tabs', component: TabsComponent },
   { path: 'stepper', component: StepperComponent },
+  { path: 'input', component: InputComponent },
   { path: '**', component: AppComponent }
 ];
 
