@@ -97,3 +97,8 @@ En esta practica generaremos un modulo para manejar las importaciones
 1) import {MatInputModule} from '@angular/material/input';
 2) injectarlo
 3) documentacion https://material.angular.io/components/input/overview
+
+## Select
+1) import {MatSelectModule} from '@angular/material/select';
+2) injectarlo
+3) documentacion https://material.angular.io/components/select/overview

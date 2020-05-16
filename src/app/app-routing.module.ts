@@ -1,3 +1,4 @@
+import { SelectComponent } from './select/select.component';
 import { InputComponent } from './input/input.component';
 import { StepperComponent } from './stepper/stepper.component';
 import { TabsComponent } from './tabs/tabs.component';
@@ -37,6 +38,7 @@ const routes: Routes = [
   { path: 'tabs', component: TabsComponent },
   { path: 'stepper', component: StepperComponent },
   { path: 'input', component: InputComponent },
+  { path: 'select', component: SelectComponent },
   { path: '**', component: AppComponent }
 ];
 
