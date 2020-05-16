@@ -16,6 +16,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSelectModule} from '@angular/material/select';
 import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatTabsModule} from '@angular/material/tabs';
 
 
 const MaterialComponents = [
@@ -35,7 +36,8 @@ const MaterialComponents = [
   MatExpansionModule,
   MatFormFieldModule,
   MatSelectModule,
-  MatDatepickerModule
+  MatDatepickerModule,
+  MatTabsModule
 ];
 
 @NgModule({

@@ -83,4 +83,7 @@ En esta practica generaremos un modulo para manejar las importaciones
 2) injectarlo
 3) documentacion https://material.angular.io/components/card/overview
 
-
+## Tabs
+1) import {MatTabsModule} from '@angular/material/tabs';
+2) injectarlo
+3) documentacion https://material.angular.io/components/tabs/overview

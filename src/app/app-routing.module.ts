@@ -1,3 +1,4 @@
+import { TabsComponent } from './tabs/tabs.component';
 import { CardsComponent } from './cards/cards.component';
 import { ExpansionComponent } from './expansion/expansion.component';
 import { GridListComponent } from './grid-list/grid-list.component';
@@ -31,6 +32,7 @@ const routes: Routes = [
   { path: 'grid-list', component: GridListComponent },
   { path: 'expansion-panel', component: ExpansionComponent },
   { path: 'cards', component: CardsComponent },
+  { path: 'tabs', component: TabsComponent },
   { path: '**', component: AppComponent }
 ];
 
