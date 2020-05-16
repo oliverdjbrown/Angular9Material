@@ -1,3 +1,4 @@
+import { StepperComponent } from './stepper/stepper.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { CardsComponent } from './cards/cards.component';
 import { ExpansionComponent } from './expansion/expansion.component';
@@ -33,6 +34,7 @@ const routes: Routes = [
   { path: 'expansion-panel', component: ExpansionComponent },
   { path: 'cards', component: CardsComponent },
   { path: 'tabs', component: TabsComponent },
+  { path: 'stepper', component: StepperComponent },
   { path: '**', component: AppComponent }
 ];
 
