@@ -114,6 +114,6 @@ En esta practica generaremos un modulo para manejar las importaciones
 3) documentacion https://material.angular.io/components/checkbox/overview
 
 ## RadioButton
-1) import {MatAutocompleteModule} from '@angular/material/autocomplete';
+1) import {MatRadioModule} from '@angular/material/radio';
 2) injectarlo
-3) documentacion https://material.angular.io/components/autocomplete/overview
+3) documentacion https://material.angular.io/components/radio/overview
