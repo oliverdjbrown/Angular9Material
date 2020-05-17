@@ -152,3 +152,8 @@ En esta practica generaremos un modulo para manejar las importaciones
 1) import {MatSortModule} from '@angular/material/sort';
 2) injectarlo
 3) documentacion https://material.angular.io/components/table/overview#sorting
+
+## Table Pagination
+1) import {MatPaginatorModule} from '@angular/material/paginator';
+2) injectarlo
+3) documentacion https://material.angular.io/components/paginator/overview

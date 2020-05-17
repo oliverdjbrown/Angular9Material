@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import {MatTableDataSource} from '@angular/material/table';
 import {MatSort} from '@angular/material/sort';
+import {MatPaginator} from '@angular/material/paginator';
 
 
 export interface PeriodicElement {
@@ -34,6 +35,7 @@ export class TableComponent implements OnInit {
   dataSource = new MatTableDataSource(ELEMENT_DATA);
 
   @ViewChild(MatSort, {static: true}) sort: MatSort;
+  @ViewChild(MatPaginator, {static: true}) paginator: MatPaginator;
 
 
   applyFilter(event: Event) {
@@ -46,6 +48,7 @@ export class TableComponent implements OnInit {
 
   ngOnInit(): void {
     this.dataSource.sort = this.sort;
+    this.dataSource.paginator = this.paginator;
   }
 
 }
