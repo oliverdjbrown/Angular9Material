@@ -22,6 +22,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatDialogModule} from '@angular/material/dialog';
 
 const MaterialComponents = [
   MatButtonModule,
@@ -46,7 +47,8 @@ const MaterialComponents = [
   MatInputModule,
   MatAutocompleteModule,
   MatCheckboxModule,
-  MatTooltipModule
+  MatTooltipModule,
+  MatDialogModule
 ];
 
 @NgModule({

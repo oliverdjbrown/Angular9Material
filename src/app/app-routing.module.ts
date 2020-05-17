@@ -1,3 +1,4 @@
+import { DialogComponent } from './dialog/dialog.component';
 import { SnackbarComponent } from './snackbar/snackbar.component';
 import { TooltipComponent } from './tooltip/tooltip.component';
 import { DatetimepickerComponent } from './datetimepicker/datetimepicker.component';
@@ -52,6 +53,7 @@ const routes: Routes = [
   { path: 'datetimepicker', component: DatetimepickerComponent },
   { path: 'tooltip', component: TooltipComponent },
   { path: 'snackbar', component: SnackbarComponent },
+  { path: 'dialog', component: DialogComponent },
   { path: '**', component: AppComponent }
 ];
 

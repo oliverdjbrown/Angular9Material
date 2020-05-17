@@ -132,3 +132,8 @@ En esta practica generaremos un modulo para manejar las importaciones
 1) import {MatSnackBarModule} from '@angular/material/snack-bar';
 2) injectarlo
 3) documentacion https://material.angular.io/components/snack-bar/overview
+
+## Dialog
+1) import {MatDialogModule} from '@angular/material/dialog';
+2) injectarlo
+3) documentacion https://material.angular.io/components/dialog/overview
