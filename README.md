@@ -142,3 +142,8 @@ En esta practica generaremos un modulo para manejar las importaciones
 1) import {MatTableModule} from '@angular/material/table';
 2) injectarlo
 3) documentacion https://material.angular.io/components/table/overview
+
+## Table Filtering
+1) import {MatTableDataSource} from '@angular/material/table';
+2) injectarlo
+3) documentacion https://material.angular.io/components/table/overview#filtering
