@@ -147,3 +147,8 @@ En esta practica generaremos un modulo para manejar las importaciones
 1) import {MatTableDataSource} from '@angular/material/table';
 2) injectarlo
 3) documentacion https://material.angular.io/components/table/overview#filtering
+
+## Table Sorting
+1) import {MatSortModule} from '@angular/material/sort';
+2) injectarlo
+3) documentacion https://material.angular.io/components/table/overview#sorting
