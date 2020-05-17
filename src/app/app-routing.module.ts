@@ -1,3 +1,4 @@
+import { VirtualScrollingComponent } from './virtual-scrolling/virtual-scrolling.component';
 import { TableComponent } from './table/table.component';
 import { DialogComponent } from './dialog/dialog.component';
 import { SnackbarComponent } from './snackbar/snackbar.component';
@@ -56,6 +57,7 @@ const routes: Routes = [
   { path: 'snackbar', component: SnackbarComponent },
   { path: 'dialog', component: DialogComponent },
   { path: 'table', component: TableComponent },
+  { path: 'virtual-scrolling', component: VirtualScrollingComponent },
   { path: '**', component: AppComponent }
 ];
 

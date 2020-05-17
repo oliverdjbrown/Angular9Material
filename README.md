@@ -157,3 +157,8 @@ En esta practica generaremos un modulo para manejar las importaciones
 1) import {MatPaginatorModule} from '@angular/material/paginator';
 2) injectarlo
 3) documentacion https://material.angular.io/components/paginator/overview
+
+## Table Pagination
+1) import {ScrollingModule} from '@angular/cdk/scrolling';
+2) injectarlo
+3) documentacion https://material.angular.io/cdk/scrolling/overview

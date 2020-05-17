@@ -32,6 +32,8 @@ import { SnackbarComponent } from './snackbar/snackbar.component';
 import { DialogComponent } from './dialog/dialog.component';
 import { DialogExampleComponent } from './dialog/dialog-example/dialog-example.component';
 import { TableComponent } from './table/table.component';
+import {ScrollingModule} from '@angular/cdk/scrolling';
+import { VirtualScrollingComponent } from './virtual-scrolling/virtual-scrolling.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +63,8 @@ import { TableComponent } from './table/table.component';
     SnackbarComponent,
     DialogComponent,
     DialogExampleComponent,
-    TableComponent
+    TableComponent,
+    VirtualScrollingComponent
   ],
   imports: [
     BrowserModule,
@@ -69,7 +72,8 @@ import { TableComponent } from './table/table.component';
     BrowserAnimationsModule,
     MaterialModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    ScrollingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
