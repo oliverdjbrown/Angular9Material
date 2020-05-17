@@ -137,3 +137,8 @@ En esta practica generaremos un modulo para manejar las importaciones
 1) import {MatDialogModule} from '@angular/material/dialog';
 2) injectarlo
 3) documentacion https://material.angular.io/components/dialog/overview
+
+## Table
+1) import {MatTableModule} from '@angular/material/table';
+2) injectarlo
+3) documentacion https://material.angular.io/components/table/overview

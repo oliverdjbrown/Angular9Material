@@ -1,3 +1,4 @@
+import { TableComponent } from './table/table.component';
 import { DialogComponent } from './dialog/dialog.component';
 import { SnackbarComponent } from './snackbar/snackbar.component';
 import { TooltipComponent } from './tooltip/tooltip.component';
@@ -54,6 +55,7 @@ const routes: Routes = [
   { path: 'tooltip', component: TooltipComponent },
   { path: 'snackbar', component: SnackbarComponent },
   { path: 'dialog', component: DialogComponent },
+  { path: 'table', component: TableComponent },
   { path: '**', component: AppComponent }
 ];
 

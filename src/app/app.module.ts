@@ -31,6 +31,7 @@ import { TooltipComponent } from './tooltip/tooltip.component';
 import { SnackbarComponent } from './snackbar/snackbar.component';
 import { DialogComponent } from './dialog/dialog.component';
 import { DialogExampleComponent } from './dialog/dialog-example/dialog-example.component';
+import { TableComponent } from './table/table.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +60,8 @@ import { DialogExampleComponent } from './dialog/dialog-example/dialog-example.c
     TooltipComponent,
     SnackbarComponent,
     DialogComponent,
-    DialogExampleComponent
+    DialogExampleComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
